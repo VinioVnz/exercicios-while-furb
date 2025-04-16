@@ -55,6 +55,7 @@ public class Uni5Exe27 {
                 System.out.println("Dia invalido");
             }
         }
+        input.close();
         System.out.println("Dia maior produção: "+diaProdutivo);
         System.out.println("Periodo funcionario mais produz: "+periodoProdutivo);
         System.out.println("Quantidade produzida: "+periodoProdutivoQuant);
